@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>B5 Tablas</title>
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <div class="mt-3">
+            <label for="emailInput" class="form-label">Email</label>
+            <input
+              id="emailInput"
+              class="form-control"
+              type="text"
+              placeholder="Ingresa tu email"
+            />
+          </div>
+          <div class="mt-3">
+            <label for="passInput" class="form-label">Contraseña</label>
+            <input
+              id="passInput"
+              class="form-control"
+              type="text"
+              placeholder="Ingresa tu passsword"
+            />
+          </div>
+          <div class="mb-3">
+              <label for="comentId" class="form-label">Comentarios</label>
+              <textarea class="form-control" name="" id="comentId" cols="30" rows="2"></textarea>
+
+          </div>
+          <div class="mb-3">
+            <input class="form-control" type="file">
+          </div>
+          <div class="mb-3">
+            <input class="form-control form-control-color" type="color">
+          </div>
+          <div class="mb-3">
+            <input class="form-control " list="lista">
+            <datalist id="lista">
+              <option value="linux"></option>
+              <option value="window"></option>
+              <option value="mac"></option>
+
+            </datalist>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- javascript  -->
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+  </body>
+</html>
